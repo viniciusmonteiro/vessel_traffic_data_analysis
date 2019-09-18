@@ -110,7 +110,7 @@ psql -d marinecadastre -c "COPY ais_data FROM '/volume/csv/AIS_ASCII_by_UTM_Mont
 
 # postgis extension
 psql -d marinecadastre -c 'CREATE EXTENSION postgis;'
-psql -d marinecadastre -c 'alter table ais_data add geom geometry;'
-psql -d marinecadastre -c 'update ais_data set geom = ST_Point(lat, lon);'
-psql -d marinecadastre -c 'CREATE INDEX ais_data_idx ON ais_data USING GIST (geom);'
+# psql -d marinecadastre -c 'alter table ais_data add geom geometry;'
+# psql -d marinecadastre -c 'update ais_data set geom = ST_Point(lat, lon);'
+# psql -d marinecadastre -c 'CREATE INDEX ais_data_idx ON ais_data USING GIST (geom);'
 
