@@ -8,8 +8,8 @@ The idea of this project is to facilitate the gathering, extraction and importat
 
 # How To Use:
 1. Clone the project;
-2. Execute the bash build.sh inside the folder container;
-3. Before execute the script bash "run.sh", open it and set the proper directory on your server to bind the volumes of the containers;
+2. Execute the bash script "build.sh" inside the folder container;
+3. Edit the bash script "run.sh" setting the proper directories on your server to bind the volumes of the containers. Afterwards, execute it;
 4. Once the docker container is running, access it through the command: sudo docker exec -it marinecadastre_postgis bash
 5. Navigate to the folder scripts, open the file "download_data.sh" and add manually the month and zones that you may be interested to download.
 6. Once the files have been dowloaded, execute the file: "unzip_data.sh" to extract all the files.
