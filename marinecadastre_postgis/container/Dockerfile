@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
   less \
   zip \
   unzip \
+  tmux \
   wget
 
 # USER postgres
