@@ -5,10 +5,6 @@ wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone02.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone03.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone04.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone04.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone05.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone06.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone07.zip
@@ -30,10 +26,6 @@ wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone02.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone03.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone04.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone04.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone05.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone06.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone07.zip
@@ -51,10 +43,6 @@ wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone19.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone20.zip
 
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone04.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone01.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone02.zip
 wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone03.zip
