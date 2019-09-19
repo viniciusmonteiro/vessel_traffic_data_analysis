@@ -1,6 +1,6 @@
 FROM mdillon/postgis
 
-RUN apt-get update && pacman -S tmux --noconfirm &&  apt-get install -y \
+RUN apt-get update && apt-get install -y \
   nano \
   less \
   zip \
