@@ -1,65 +1,17 @@
 #!/bin/bash
-# su -c "bash /volume/download_data.sh" - postgres
-# files to download:
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone04.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone05.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone06.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone07.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone08.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone09.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone10.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone11.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone12.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone13.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone14.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone15.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone16.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone17.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone18.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone19.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_01_Zone20.zip
+# Run => su -c "bash /volume/download_data.sh" - postgres
+# p1 ($1) => year
+# p2 ($2) => month
 
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone04.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone05.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone06.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone07.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone08.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone09.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone10.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone11.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone12.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone13.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone14.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone15.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone16.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone17.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone18.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone19.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_02_Zone20.zip
+echo '### downloading';
 
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone01.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone02.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone03.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone04.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone05.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone06.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone07.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone08.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone09.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone10.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone11.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone12.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone13.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone14.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone15.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone16.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone17.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone18.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone19.zip
-wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2015/AIS_2015_03_Zone20.zip
+
+M="01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20"
+for i in $M
+do
+   echo "wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/"$1"/AIS_"$1"_"$2"_Zone"$i".zip"
+   wget -P /volume/wget https://coast.noaa.gov/htdata/CMSP/AISDataHandler/$1/AIS_$1_$2_Zone$i.zip
+   
+   wait
+done
+
